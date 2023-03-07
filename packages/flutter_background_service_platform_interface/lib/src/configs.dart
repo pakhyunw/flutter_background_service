@@ -51,7 +51,7 @@ class AndroidConfiguration {
   AndroidConfiguration({
     required this.onStart,
     this.autoStart = true,
-    this.autoStartOnBoot = true,
+    this.autoStartOnBoot = false,
     required this.isForegroundMode,
     this.initialNotificationContent = 'Preparing',
     this.initialNotificationTitle = 'Background Service',
